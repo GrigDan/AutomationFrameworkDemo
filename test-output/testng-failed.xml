@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CRUISe_DealTasks_Regression_Suite]">
+  <listeners>
+    <listener class-name="utilities.listeners.SuiteInterceptor"/>
+    <listener class-name="utilities.listeners.TestInterceptor"/>
+  </listeners>
+  <test name="Click flight(failed)">
+    <classes>
+      <class name="test.framework.TestBookFlight">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="selectFlightPage"/>
+        </methods>
+      </class> <!-- test.framework.TestBookFlight -->
+    </classes>
+  </test> <!-- Click flight(failed) -->
+</suite> <!-- Failed suite [CRUISe_DealTasks_Regression_Suite] -->

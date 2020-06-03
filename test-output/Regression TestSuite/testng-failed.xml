@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Regression TestSuite]">
+  <test name="Application Test(failed)">
+    <classes>
+      <class name="danutTest.framework1.TestBookFlight">
+        <methods>
+          <include name="tearDown"/>
+          <include name="selectFlightPage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- danutTest.framework1.TestBookFlight -->
+    </classes>
+  </test> <!-- Application Test(failed) -->
+</suite> <!-- Failed suite [Regression TestSuite] -->
